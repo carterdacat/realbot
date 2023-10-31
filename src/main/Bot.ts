@@ -20,7 +20,7 @@ const socket = io("wss://web.realsports.io", {
 });
 
 export default class Bot {
-    //logger: Logger;
+    logger: Logger;
     // wait: { (ms: number): Promise<any>; (ms: number, value: any): Promise<any> };
     constructor() {
         //    this.wait = util.promisify(setTimeout);

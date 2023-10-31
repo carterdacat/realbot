@@ -1,4 +1,6 @@
-import { bgBlue, black, green } from "chalk";
+import bgBlue from "chalk"
+import black from "chalk"
+import green from "chalk"
 import { loggerTypes } from "./Types";
 
 /**
