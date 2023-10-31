@@ -8,18 +8,18 @@ dotenv.config();
 const client = new Bot();
 
 const start = async () => {
-    client.connect();
+    client.login();
 
     readdir(join(__dirname, "./events"), (_, files: string[]) => {
         client.logger.log(`Loading a total of ${files.length} events.`, "log");
         files.forEach(async (file) => {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const eventName: any = file.split(".")[0];
-            console.log(eventName)
             client.logger.log(`Loading Event: ${eventName}`);
             const event = new (require(join(__dirname, `./events/${file}`)))(client);
-            console.log(event)
-            client.on(eventName, (...args) => event.run(...args));
+            client.on(eventName, (...args) => {
+                event.run(...args);
+            });
             delete require.cache[require.resolve(join(__dirname, `./events/${file}`))];
         });
     });
@@ -28,6 +28,7 @@ const start = async () => {
 start();
 
 client.on("disconnect", () => {
+    client.socket.connect()
     client.logger.log("Client Disconnected", "warn");
 });
 
@@ -125,7 +126,7 @@ process.on("uncaughtException", (err: Error) => {
 });
 
 process.on("exit", (code) => {
-    console.log(`About to exit with code: ${code}`);
+    client.logger.log(`About to exit with code: ${code}`, "log")
 });
 
 /* NOTE
@@ -143,4 +144,12 @@ process.on("exit", (code) => {
                         need to solve what Letters are
                     activityInfo: { bumpedAt: '2023-10-30T21:22:26.504Z', count: 7 },
                     userId: 'KnA6mEEJ'
+
+
+            GET GROUP
+            https://web.realsports.io/comments/groups/16494/replies/4621013?limit=10
+            GET COMMENT POST
+            https://web.realsports.io/comments/posts/99313/replies/5014904?limit=10   
+            REPLY (POST)
+            https://web.realsports.io/comments/posts/99313
             */
