@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node ./index/index.ts"
+    "test": "ts-node ./src/index.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,13 @@
   "dependencies": {
     "@types/node": "^20.8.9",
     "axios": "^1.6.0",
-    "typescript": "^5.2.2"
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "promisify": "^0.0.3",
+    "socket.io-client": "^2.5.0",
+    "typescript": "^5.2.2",
+    "utils": "^0.3.1",
+    "ws": "^8.14.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"
