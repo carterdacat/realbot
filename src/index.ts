@@ -1,32 +1,30 @@
-import io from "socket.io-client";
+import { readdir } from "fs";
+import dotenv from "dotenv";
+import Bot from "./main/Bot";
+import { join } from "path";
 
-const query = {
-    socketType: "user",
-    userId: "KnA6mEEJ",
-    auth: "KnA6mEEJ!Y35g7vRG!801a60f9-9b0e-4811-b4f7-82cd53442a7b",
+dotenv.config();
+
+const client = new Bot();
+
+const start = async () => {
+    client.connect();
 };
 
-const socket = io("wss://web.realsports.io", {
-    query: query,
-    transports: ["websocket"],
+start();
+
+process.on("unhandledRejection", (error: Error) => {
+    //client.logger.log(error.message, "error");
 });
 
-
-
-socket.on("popup", function (msg) {
-    console.log("hello: ", msg);
+process.on("uncaughtException", (error: Error) => {
+    //client.logger.log(error.message, "error");
+});
+process.on("exit", (code) => {
+    console.log(`About to exit with code: ${code}`);
 });
 
-socket.on("connect", function () {
-    console.log("Client connected to the server via Socket.IO");
-    const engine = socket.io.engine
-    engine.on("packet", ({ type, data }) => {
-        const mentionRegEx = new RegExp('\"(UserActivityUpdated)\"');
-        if (mentionRegEx.test(data)) {
-            const cleanedData = data.replace(/^\d+\[/, "[");
-            const dataArray = JSON.parse(cleanedData);
-            console.log(dataArray);
-            /* NOTE
+/* NOTE
             websocket is a "notifier", and does NOT send message content. Two options for checking that messeage contents.
             1. Fetch activites
                 Would need to get message ID to be able to filter it in activities
@@ -42,18 +40,3 @@ socket.on("connect", function () {
                     activityInfo: { bumpedAt: '2023-10-30T21:22:26.504Z', count: 7 },
                     userId: 'KnA6mEEJ'
             */
-        }
-    })
-});
-
-socket.on("disconnect", function () {
-    console.log("Client disconnected from the server via Socket.IO");
-});
-
-socket.on("connect_error", function (err) {
-    console.log("Client connect_error: ", err);
-});
-
-socket.on("connect_timeout", function (err) {
-    console.log("Client connect_timeout: ", err);
-});
