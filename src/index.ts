@@ -2,6 +2,7 @@ import fs, { readdir } from "fs";
 import dotenv from "dotenv";
 import Bot from "./main/Bot";
 import path, { join } from "path";
+import Mention from "./classes/Post";
 
 dotenv.config();
 
@@ -25,10 +26,28 @@ const start = async () => {
     });
 };
 
-start();
+const test = async () => {
+    /*const postCommentPath = "./examples/replyRes.json";
+
+    // Read the JSON data from the file
+
+    const postCommentData = fs.readFileSync(postCommentPath, "utf8");
+
+    // Parse the JSON data into an object
+    const postComment = JSON.parse(postCommentData);
+
+    // Create an instance of the Mention class with the parsed JSON data
+    const mention = new Mention(postComment, client);*/
+
+    const post = await client.getPlay(1905724130, 24765814);
+    post.reply("no!")
+};
+
+test();
+//start();
 
 client.on("disconnect", () => {
-    client.socket.connect()
+    client.socket.connect();
     client.logger.log("Client Disconnected", "warn");
 });
 
@@ -64,8 +83,6 @@ client.on("connect_error", (err) => {
 });
 
 process.on("unhandledRejection", (err: Error) => {
-    const errorMessage = JSON.stringify(err, null, 2);
-
     // Log to the console
     client.logger.log(err.message, "error");
 
@@ -81,13 +98,13 @@ process.on("unhandledRejection", (err: Error) => {
     }
 
     // Generate a filename using the formatted timestamp
-    const filename = `connect_error_log_${timestamp}.txt`;
+    const filename = `unhandledRejection_log_${timestamp}.txt`;
 
     // Generate the full path to the log file
     const logFilePath = path.join(logDir, filename);
 
     // Log the error message to the file
-    fs.appendFile(logFilePath, errorMessage, (error) => {
+    fs.appendFile(logFilePath, err.stack, (error) => {
         if (error) {
             console.error("Error writing to the log file: " + error.message);
         }
@@ -95,8 +112,6 @@ process.on("unhandledRejection", (err: Error) => {
 });
 
 process.on("uncaughtException", (err: Error) => {
-    const errorMessage = JSON.stringify(err, null, 2);
-
     // Log to the console
     client.logger.log(err.message, "error");
 
@@ -112,13 +127,13 @@ process.on("uncaughtException", (err: Error) => {
     }
 
     // Generate a filename using the formatted timestamp
-    const filename = `connect_error_log_${timestamp}.txt`;
+    const filename = `uncaughtException_log_${timestamp}.txt`;
 
     // Generate the full path to the log file
     const logFilePath = path.join(logDir, filename);
 
     // Log the error message to the file
-    fs.appendFile(logFilePath, errorMessage, (error) => {
+    fs.appendFile(logFilePath, err.stack, (error) => {
         if (error) {
             console.error("Error writing to the log file: " + error.message);
         }
@@ -126,7 +141,7 @@ process.on("uncaughtException", (err: Error) => {
 });
 
 process.on("exit", (code) => {
-    client.logger.log(`About to exit with code: ${code}`, "log")
+    client.logger.log(`About to exit with code: ${code}`, "log");
 });
 
 /* NOTE

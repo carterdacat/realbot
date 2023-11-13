@@ -5,6 +5,9 @@ import io from "socket.io-client";
 import dotenv from "dotenv";
 import axios from "axios";
 import fs from "fs";
+import { getPost, getPlay } from "../utils/functions";
+import Post from "../classes/Post";
+import Play from "../classes/Play";
 
 dotenv.config();
 
@@ -38,6 +41,12 @@ export default class Bot {
     // Method to remove custom event listeners
     off(event: string, listener: (...args: any[]) => void) {
         eventEmitter.off(event, listener);
+    }
+    getPost(postId: number, commentId: number): Promise<Post> {
+        return getPost(this, postId, commentId);
+    }
+    getPlay(playId: number, commentId: number): Promise<Play> {
+        return getPlay(this, playId, commentId);
     }
     login() {
         const mentionRegex = /\[([^\]]+)\] ([a-zA-Z\d\w]+) mentioned you in/g;
@@ -91,7 +100,6 @@ export default class Bot {
                 const dataArray = JSON.parse(cleanedData);
                 const message = dataArray[1].message;
                 if (mentionRegex.test(message)) {
-                    console.log(dataArray)
                     eventEmitter.emit("mention", dataArray);
                 } else if (replyRegex.test(message)) {
                     eventEmitter.emit("reply", dataArray);
