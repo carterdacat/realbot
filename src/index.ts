@@ -39,11 +39,12 @@ const test = async () => {
     // Create an instance of the Mention class with the parsed JSON data
     const mention = new Mention(postComment, client);*/
 
-    const post = await client.getPlay(1905724130, 24765814);
-    post.reply("no!")
+    let activty = await client.getActivity(5357490);
+    const entity = await activty.getEntity()
+    entity.reply("test!")
 };
 
-test();
+start();
 //start();
 
 client.on("disconnect", () => {
@@ -152,15 +153,15 @@ process.on("exit", (code) => {
                 IMPORTANT. CAN FIND ACTIVITY BASED ON COMMENT ID (SEE BELOW)
             2. Find the message its self and read its data
                 We are given a "path". Will need to investigate
-                  {
-                    message: '[ryan_mountaincastle] realbot2 mentioned you in a group comment',
-                    path: '/G4ckFWB1HYmB/4588746',
-                        Number is commentID
-                        need to solve what Letters are
-                    activityInfo: { bumpedAt: '2023-10-30T21:22:26.504Z', count: 7 },
-                    userId: 'KnA6mEEJ'
-
-
+{
+  "message": "[ryan_mountaincastle] yesorno mentioned you in a post comment",
+  "path": "/v5ijHe7vL79HQdbV/5357490",
+  "activityInfo": {
+    "bumpedAt": "2023-11-15T15:57:20.565Z",
+    "count": 1
+  },
+  "userId": "KnA6mEEJ"
+}
             GET GROUP
             https://web.realsports.io/comments/groups/16494/replies/4621013?limit=10
             GET COMMENT POST

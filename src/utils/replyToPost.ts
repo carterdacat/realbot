@@ -20,7 +20,7 @@ export default async function replyToPost(
         const res = await axios.post(`https://web.realsports.io/comments/posts/${postId}`, req, {
             method: "post",
             headers: {
-                "real-auth-info": "KnA6mEEJ!Y35g7vRG!801a60f9-9b0e-4811-b4f7-82cd53442a7b",
+                "real-auth-info": process.env.auth,
                 "real-device-uuid": "178ae57e-6575-4119-bb26-9b7102fd5b69",
                 "real-device-type": "desktop_web",
                 "real-device-token": "token",

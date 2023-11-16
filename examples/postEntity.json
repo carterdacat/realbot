@@ -1,0 +1,79 @@
+{
+    "postId": "103753",
+    "comments": [],
+    "parentComment": {
+        "id": "5334475",
+        "userId": "wJpdRRJE",
+        "postId": 103753,
+        "parentCommentId": null,
+        "replyingToCommentId": null,
+        "replyingToUserId": null,
+        "replyNum": null,
+        "content": {
+            "nodes": [
+                {
+                    "type": "Paragraph",
+                    "children": [
+                        {
+                            "text": "Ya man",
+                            "type": "Text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "replyCount": 0,
+        "depth": 0,
+        "createdAt": "2023-11-14T12:00:51.071Z",
+        "flaggedAt": null,
+        "deletedAt": null,
+        "postCreatedAt": "2023-11-14T12:00:36.665Z",
+        "sport": "ncaam",
+        "groupId": 777777777,
+        "filter": "clean",
+        "replyingToReplyNum": null,
+        "repliesClosed": false,
+        "priorityAvatar": null,
+        "priorityType": null,
+        "priority": 0,
+        "attributionInfo": {
+            "count": 2,
+            "attributions": [
+                {
+                    "id": 4897,
+                    "type": "userpass",
+                    "active": false,
+                    "avatarSource": "assets/teams/default/medium/322656eeede3bc396183d1b01db3fc71.webp",
+                    "label": "#1"
+                },
+                {
+                    "id": 4896,
+                    "type": "userpass",
+                    "active": false,
+                    "avatarSource": "assets/teams/default/medium/2c32118fd815dd918656a48b553b96e5.webp",
+                    "label": "#1"
+                }
+            ]
+        },
+        "detail": null,
+        "pinPriority": null,
+        "numEdits": 0,
+        "karma": null,
+        "user": {
+            "id": "wJpdRRJE",
+            "userName": "ikkd",
+            "avatarKey": 17,
+            "flairId": "9d56d3e491c35321ee696b05bee3846b",
+            "isVerified": false,
+            "supporterTier": 19,
+            "realProTier": null,
+            "entityAvatars": {
+                "team_30_ncaam": "294a0367cec9d4f8f4a761a1c7ca6a21",
+                "player_660670_mlb": "d92042fefdae3bf65b5ddedfcdfcd10b"
+            }
+        },
+        "canEdit": false
+    },
+    "repliesDisabled": false,
+    "upvotes": []
+}
