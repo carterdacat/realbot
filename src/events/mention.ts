@@ -11,7 +11,8 @@ module.exports = class mention {
         const match = path.match(/\/(\d+)$/);
         // If a match is found, extract the number
         const commentId = match ? match[1] : null;
-        const entity = await (await this.client.getActivity(commentId)).getEntity()
+        const acitvity = await this.client.getActivity(commentId);
+        const entity = await acitvity.getEntity()
         this.client.logger.log(`Command ran by ${entity.user.userName}!`, "log")
         const reply = entity.reply(coinflip() ? "Yes!" : "No!")
         //GET GROUP

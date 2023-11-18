@@ -2,7 +2,6 @@ import fs, { readdir } from "fs";
 import dotenv from "dotenv";
 import Bot from "./main/Bot";
 import path, { join } from "path";
-import Mention from "./classes/Post";
 
 dotenv.config();
 

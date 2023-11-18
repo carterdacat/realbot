@@ -2,14 +2,15 @@ import axios from "axios";
 import Bot from "../main/Bot";
 import Entity from "../classes/Entity";
 
-export default async function getPlayFunction(
+export default async function getGameFunction(
     client: Bot,
-    playId: number,
-    commentId: number | string
+    gameId: number,
+    commentId: number | string,
+    sport: string
 ): Promise<Entity> {
     try {
         const res = await axios.get(
-            `http://web.realsports.io/comments/plays/${playId}/replies/${commentId}?limit=10`, // <-- Added trailing slash here
+            `http://web.realsports.io/comments/games/${gameId}/sports/${sport}/replies/${commentId}?limit=10`, // <-- Added trailing slash here
             {
                 method: "get",
                 headers: {

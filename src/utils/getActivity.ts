@@ -1,8 +1,5 @@
 import axios from "axios";
 import Bot from "../main/Bot";
-import Post from "../classes/Post";
-import Entitiy from "../classes/Entity";
-import Entity from "../classes/Entity";
 import Activity from "../classes/Activity";
 
 export default async function getActivity(

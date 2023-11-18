@@ -5,10 +5,11 @@ import io from "socket.io-client";
 import dotenv from "dotenv";
 import axios from "axios";
 import fs from "fs";
-import { getPost, getPlay } from "../utils/functions";
-import Post from "../classes/Post";
-import Play from "../classes/Play";
+import { getPost, getPlay, getGame } from "../utils/functions";
+import packagejs from "../../package.json";
+
 import getActivity from "../utils/getActivity";
+import Entity from "../classes/Entity";
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ export default class Bot {
     startTime: string;
     token: string;
     auth: string;
+    version: any;
     constructor() {
         this.wait = util.promisify(setTimeout);
         this.socket = io("wss://web.realsports.io", {
@@ -36,6 +38,7 @@ export default class Bot {
         this.startTime = new Date().toISOString().replace(/[-:.]/g, "_");
         this.logger = new Logger(this.startTime);
         this.token = process.env.auth;
+        this.version = packagejs.version;
     }
     on(event: string, listener: (...args: any[]) => void) {
         eventEmitter.on(event, listener);
@@ -44,14 +47,17 @@ export default class Bot {
     off(event: string, listener: (...args: any[]) => void) {
         eventEmitter.off(event, listener);
     }
-    getPost(postId: number, commentId: number): Promise<Post> {
+    getPost(postId: number, commentId: number): Promise<Entity> {
         return getPost(this, postId, commentId);
     }
-    getPlay(playId: number, commentId: number): Promise<Play> {
+    getPlay(playId: number, commentId: number): Promise<Entity> {
         return getPlay(this, playId, commentId);
     }
     getActivity(commentId: number | string) {
         return getActivity(this, commentId);
+    }
+    getGame(gameId: number, commentId: number, sport: string): Promise<Entity> {
+        return getGame(this, gameId, commentId, sport);
     }
     login() {
         const mentionRegex = /\[([^\]]+)\] ([a-zA-Z\d\w]+) mentioned you in/;
