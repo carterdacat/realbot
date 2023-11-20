@@ -6,7 +6,7 @@
   "scripts": {
     "test": "ts-node ./src/index.ts",
     "build": "tsc",
-    "start": "npm install && node ./out/"
+    "start": "npm install && node ./out/src/index.js"
   },
   "repository": {
     "type": "git",
