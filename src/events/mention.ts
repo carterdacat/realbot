@@ -13,7 +13,7 @@ module.exports = class mention {
         const commentId = match ? match[1] : null;
         const acitvity = await this.client.getActivity(commentId);
         const entity = await acitvity.getEntity()
-        this.client.logger.log(`Question Asked By ${entity.user.userName}!`, "log")
+        this.client.logger.log(`Question Asked By: ${entity.user.userName}!`, "log")
         const reply = entity.reply(coinflip() ? "Yes!" : "No!")
         //GET GROUP
         //https://web.realsports.io/comments/groups/16494/replies/4621013?limit=10
