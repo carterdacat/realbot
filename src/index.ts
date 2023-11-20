@@ -49,6 +49,7 @@ start();
 client.on("disconnect", () => {
     client.socket.connect();
     client.logger.log("Client Disconnected", "warn");
+    client.login()
 });
 
 client.on("connect_error", (err) => {

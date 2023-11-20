@@ -8,7 +8,7 @@ import fs from "fs";
 import { getPost, getPlay, getGame } from "../utils/functions";
 import packagejs from "../../package.json";
 
-import getActivity from "../utils/getActivity";
+import { getActivity } from "../utils/functions";
 import Entity from "../classes/Entity";
 
 dotenv.config();
