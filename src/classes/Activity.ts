@@ -1,5 +1,5 @@
 import Bot from "../main/Bot";
-import { getPlay, getPost } from "../utils/functions";
+import { getGame, getPlay, getPost } from "../utils/functions";
 import Entity from "./Entity";
 import User from "./User";
 
@@ -12,7 +12,7 @@ export default class Activity {
     createdBy: User;
     sport: string;
     commentId: string;
-    entity: "play" | "post";
+    entity: "play" | "post" | "game";
     client: Bot;
     entityId: number;
     constructor(body, client) {
@@ -35,6 +35,9 @@ export default class Activity {
             }
             case "post": {
                 return await getPost(this.client, this.entityId, this.commentId);
+            }
+            case "game": {
+                return await getGame(this.client, this.entityId, this.commentId, this.sport)
             }
         }
     }

@@ -2,7 +2,6 @@ import fs, { readdir } from "fs";
 import dotenv from "dotenv";
 import Bot from "./main/Bot";
 import path, { join } from "path";
-import Mention from "./classes/Post";
 
 dotenv.config();
 
@@ -50,6 +49,7 @@ start();
 client.on("disconnect", () => {
     client.socket.connect();
     client.logger.log("Client Disconnected", "warn");
+    client.login()
 });
 
 client.on("connect_error", (err) => {
