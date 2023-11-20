@@ -1,0 +1,1573 @@
+{
+    "activities": [
+        {
+            "id": "30877386",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-14T16:30:24.902Z",
+            "type": "mention",
+            "entity": "play",
+            "createdBy": {
+                "id": "7Jk5PAj3",
+                "userName": "yesorno",
+                "avatarKey": 2,
+                "flairId": null,
+                "isVerified": false,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": null
+            },
+            "sport": "nba",
+            "contentId": 1908208735,
+            "commentId": "25011440",
+            "additionalInfo": {
+                "entity": "player",
+                "comment": {
+                    "id": "25011440",
+                    "depth": 0,
+                    "sport": "nba",
+                    "detail": null,
+                    "filter": "clean",
+                    "playId": 1908208735,
+                    "userId": "7Jk5PAj3",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "name": "ryan_mountaincastle",
+                                        "type": "Mention",
+                                        "mentionType": "user"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 16494,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": null,
+                    "createdAt": "2023-11-14T16:30:24.888Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "playCreatedAt": "2023-11-14T03:24:28.274Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": null,
+                    "parentCommentId": null,
+                    "replyingToUserId": null,
+                    "replyingToReplyNum": null,
+                    "replyingToCommentId": null
+                },
+                "entityId": 20000804,
+                "avatar": "07734f9feeaca5910e24e3b0c5098438",
+                "name": "Z. LaVine"
+            },
+            "section": null,
+            "groupId": 16494,
+            "deletedAt": null
+        },
+        {
+            "id": "30867633",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-14T12:03:34.970Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 27 Rax earned for daily player card performance earnings 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30797079",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-13T12:40:33.012Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 10 Rax earned for PUR #15 2023-24 Card reaching Tier 7 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30795812",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-13T12:06:51.150Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 10 Rax earned for Virginia 2023-24 Card reaching Tier 2 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30787073",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-13T12:04:53.240Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 25 Rax earned for daily player card performance earnings 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30672959",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-12T19:16:50.861Z",
+            "type": "mention",
+            "entity": "play",
+            "createdBy": {
+                "id": "7Jk5PAj3",
+                "userName": "yesorno",
+                "avatarKey": 2,
+                "flairId": null,
+                "isVerified": false,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": null
+            },
+            "sport": "nba",
+            "contentId": 1905680698,
+            "commentId": "24759414",
+            "additionalInfo": {
+                "entity": "player",
+                "comment": {
+                    "id": "24759414",
+                    "depth": 0,
+                    "sport": "nba",
+                    "detail": null,
+                    "filter": "clean",
+                    "playId": 1905680698,
+                    "userId": "7Jk5PAj3",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "name": "ryan_mountaincastle",
+                                        "type": "Mention",
+                                        "mentionType": "user"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 16494,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": null,
+                    "createdAt": "2023-11-12T19:16:50.849Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "playCreatedAt": "2023-11-12T19:16:09.601Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": null,
+                    "parentCommentId": null,
+                    "replyingToUserId": null,
+                    "replyingToReplyNum": null,
+                    "replyingToCommentId": null
+                },
+                "entityId": 20003141,
+                "avatar": "494f26edc364d90db0aacefd7af5472d",
+                "name": "L. Black"
+            },
+            "section": null,
+            "groupId": 16494,
+            "deletedAt": null
+        },
+        {
+            "id": "30657528",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-12T17:26:35.701Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " [Pro 💎] 100 Rax earned for using the web app this week 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30639374",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-12T12:33:22.265Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " [Pro 💎] 100 Rax earned for using the mobile app this week 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30632908",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-12T12:04:07.627Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 25 Rax earned for daily player card performance earnings 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30617466",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-12T05:17:34.491Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 100 Rax earned for AP vs JP fight 🥊 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30535852",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T23:23:43.354Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": "nba",
+            "contentId": 97999,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " You got the correct winner for ARI vs TEX 🔥",
+                "avatarSource": "assets/teams/default/medium/TEX_mlb.webp"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30488283",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T12:04:15.353Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 19 Rax earned for daily player card performance earnings 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30470590",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T04:34:11.330Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 5 Rax earned for passing 14k karma 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30450046",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T02:39:11.809Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 5 Rax earned for passing 13k karma 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30450010",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T02:39:11.116Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 9 Rax earned for UVA @ FLA game from the UVA team card 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30439272",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-11T01:36:26.753Z",
+            "type": "reply",
+            "entity": "play",
+            "createdBy": {
+                "id": "kJwjGYYn",
+                "userName": "james224",
+                "avatarKey": 1,
+                "flairId": null,
+                "isVerified": false,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": null
+            },
+            "sport": "ncaam",
+            "contentId": 1900602273,
+            "commentId": "24573464",
+            "additionalInfo": {
+                "entity": "player",
+                "comment": {
+                    "id": "24573464",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "playId": 1900602273,
+                    "userId": "kJwjGYYn",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "what was the ober?",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": 1,
+                    "createdAt": "2023-11-11T01:36:26.739Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "playCreatedAt": "2023-11-11T01:33:50.427Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": null,
+                    "parentCommentId": "24572958",
+                    "replyingToUserId": 295262,
+                    "replyingToReplyNum": null,
+                    "replyingToCommentId": "24572958"
+                },
+                "entityId": 5179286,
+                "avatar": null,
+                "name": "J. Griffith"
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422379",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:22:57.038Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "Y3O7aY3z",
+                "userName": "lleweypooey",
+                "avatarKey": 1,
+                "flairId": "2284511c34c7d67fafffcfcc4eccde3d",
+                "isVerified": false,
+                "supporterTier": 5,
+                "realProTier": null,
+                "entityAvatars": {
+                    "team_12_nhl_2023": "1dfd0a7d67051a9ec05c76293f0a701d",
+                    "team_112_mlb_2023": "9a3d4402767139001d08bf4217448ead",
+                    "team_153_ncaam_2023": "b6ac6d1242c49bff150def52ba4f5e66",
+                    "player_519203_mlb_2023": "4dbe375cdcde460d6ebd2de524d6d0fc",
+                    "player_573186_mlb_2023": "849c9250ce99c1fcf846718a9b86ae6c",
+                    "player_621020_mlb_2023": "6d11ba4a464f4a943229e507dc2af0cb",
+                    "player_621550_mlb_2023": "1b5ec4df3499bb0e1ed98a0cf3968928",
+                    "player_641355_mlb_2023": "d74b071a2f1f33e6665441fdd4f08482",
+                    "player_657006_mlb_2023": "45585b0af7dffc3d3fc871b2959f904c",
+                    "player_660271_mlb_2023": "3ee1c98fb021b8efd2aa8050d2b5c218",
+                    "player_660670_mlb_2023": "9971ed98d1adc74077e3e9b46825bd96",
+                    "player_663538_mlb_2023": "286a72c56c0dc110c227053f11965c6e",
+                    "player_664023_mlb_2023": "574d3894bfb26511bbdc626d37b34ced",
+                    "player_666624_mlb_2023": "381ddcdf9d5150c4bd1e95ee6ca2af44",
+                    "player_670223_mlb_2023": "debe89f6bba7e2edc134b4f9fde2d62f",
+                    "player_673548_mlb_2023": "8960f2ebedd6effbb8b299f8de03c036",
+                    "player_696136_mlb_2023": "0345505a78c98e9e308ecbc377a584cf",
+                    "player_20000485_nba_2023": "0998233ad92e4da3e79269ebf4a1fd20",
+                    "player_20000574_nba_2023": "578565122e0967d96e4bb28c28fb0915",
+                    "player_20000877_nba_2023": "e8595996f334992786aca9e4d051fa4a",
+                    "player_20001672_nba_2023": "84db38982eed15c7aa95c6c880bf8856",
+                    "player_20001999_nba_2023": "6de287d16bba19bac9534972645a035a",
+                    "player_20002300_nba_2023": "796a18b0a0c410cbee397797405baa0f"
+                }
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233815",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233815",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "Y3O7aY3z",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "home advantage in cbb is no joke",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": 0,
+                    "replyNum": 6,
+                    "createdAt": "2023-11-10T22:22:57.028Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": {
+                        "count": 18,
+                        "attributions": [
+                            {
+                                "id": 4908,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 5
+                            },
+                            {
+                                "id": 444645,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4702670,
+                                "entityType": "player",
+                                "serialNumber": 22
+                            },
+                            {
+                                "id": 444520,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 32
+                            },
+                            {
+                                "id": 444716,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4433268,
+                                "entityType": "player",
+                                "serialNumber": 33
+                            },
+                            {
+                                "id": 444625,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4897518,
+                                "entityType": "player",
+                                "serialNumber": 37
+                            }
+                        ]
+                    },
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 158367,
+                    "replyingToReplyNum": "4",
+                    "replyingToCommentId": "5233771"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422373",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:22:48.012Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "Y3O7aY3z",
+                "userName": "lleweypooey",
+                "avatarKey": 1,
+                "flairId": "2284511c34c7d67fafffcfcc4eccde3d",
+                "isVerified": false,
+                "supporterTier": 5,
+                "realProTier": null,
+                "entityAvatars": {
+                    "team_12_nhl_2023": "1dfd0a7d67051a9ec05c76293f0a701d",
+                    "team_112_mlb_2023": "9a3d4402767139001d08bf4217448ead",
+                    "team_153_ncaam_2023": "b6ac6d1242c49bff150def52ba4f5e66",
+                    "player_519203_mlb_2023": "4dbe375cdcde460d6ebd2de524d6d0fc",
+                    "player_573186_mlb_2023": "849c9250ce99c1fcf846718a9b86ae6c",
+                    "player_621020_mlb_2023": "6d11ba4a464f4a943229e507dc2af0cb",
+                    "player_621550_mlb_2023": "1b5ec4df3499bb0e1ed98a0cf3968928",
+                    "player_641355_mlb_2023": "d74b071a2f1f33e6665441fdd4f08482",
+                    "player_657006_mlb_2023": "45585b0af7dffc3d3fc871b2959f904c",
+                    "player_660271_mlb_2023": "3ee1c98fb021b8efd2aa8050d2b5c218",
+                    "player_660670_mlb_2023": "9971ed98d1adc74077e3e9b46825bd96",
+                    "player_663538_mlb_2023": "286a72c56c0dc110c227053f11965c6e",
+                    "player_664023_mlb_2023": "574d3894bfb26511bbdc626d37b34ced",
+                    "player_666624_mlb_2023": "381ddcdf9d5150c4bd1e95ee6ca2af44",
+                    "player_670223_mlb_2023": "debe89f6bba7e2edc134b4f9fde2d62f",
+                    "player_673548_mlb_2023": "8960f2ebedd6effbb8b299f8de03c036",
+                    "player_696136_mlb_2023": "0345505a78c98e9e308ecbc377a584cf",
+                    "player_20000485_nba_2023": "0998233ad92e4da3e79269ebf4a1fd20",
+                    "player_20000574_nba_2023": "578565122e0967d96e4bb28c28fb0915",
+                    "player_20000877_nba_2023": "e8595996f334992786aca9e4d051fa4a",
+                    "player_20001672_nba_2023": "84db38982eed15c7aa95c6c880bf8856",
+                    "player_20001999_nba_2023": "6de287d16bba19bac9534972645a035a",
+                    "player_20002300_nba_2023": "796a18b0a0c410cbee397797405baa0f"
+                }
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233811",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233811",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "Y3O7aY3z",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "yeah but pnc arena go brrrr",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": 0,
+                    "replyNum": 5,
+                    "createdAt": "2023-11-10T22:22:47.989Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": {
+                        "count": 18,
+                        "attributions": [
+                            {
+                                "id": 4908,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 5
+                            },
+                            {
+                                "id": 444645,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4702670,
+                                "entityType": "player",
+                                "serialNumber": 22
+                            },
+                            {
+                                "id": 444520,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 32
+                            },
+                            {
+                                "id": 444716,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4433268,
+                                "entityType": "player",
+                                "serialNumber": 33
+                            },
+                            {
+                                "id": 444625,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4897518,
+                                "entityType": "player",
+                                "serialNumber": 37
+                            }
+                        ]
+                    },
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 158367,
+                    "replyingToReplyNum": "4",
+                    "replyingToCommentId": "5233771"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422322",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:21:09.663Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "WJqe2BAJ",
+                "userName": "jc30",
+                "avatarKey": 3,
+                "flairId": "9306dc0fffe1453121139cb585d391d7",
+                "isVerified": false,
+                "supporterTier": 2,
+                "realProTier": null,
+                "entityAvatars": {}
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233771",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233771",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "WJqe2BAJ",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "They where competitive in the b12 last year nearly made the tourny now I don’t keep up with them so idk how their rosters looking so I could be wrong but based off last year they should be a good team",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": 4,
+                    "createdAt": "2023-11-10T22:21:09.649Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": "assets/teams/default/small/55cccfee9ef5469c360844d83af11f0a.webp",
+                    "attributionInfo": null,
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 66227,
+                    "replyingToReplyNum": "3",
+                    "replyingToCommentId": "5233727"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422279",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:19:47.768Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "Y3O7aY3z",
+                "userName": "lleweypooey",
+                "avatarKey": 1,
+                "flairId": "2284511c34c7d67fafffcfcc4eccde3d",
+                "isVerified": false,
+                "supporterTier": 5,
+                "realProTier": null,
+                "entityAvatars": {
+                    "team_12_nhl_2023": "1dfd0a7d67051a9ec05c76293f0a701d",
+                    "team_112_mlb_2023": "9a3d4402767139001d08bf4217448ead",
+                    "team_153_ncaam_2023": "b6ac6d1242c49bff150def52ba4f5e66",
+                    "player_519203_mlb_2023": "4dbe375cdcde460d6ebd2de524d6d0fc",
+                    "player_573186_mlb_2023": "849c9250ce99c1fcf846718a9b86ae6c",
+                    "player_621020_mlb_2023": "6d11ba4a464f4a943229e507dc2af0cb",
+                    "player_621550_mlb_2023": "1b5ec4df3499bb0e1ed98a0cf3968928",
+                    "player_641355_mlb_2023": "d74b071a2f1f33e6665441fdd4f08482",
+                    "player_657006_mlb_2023": "45585b0af7dffc3d3fc871b2959f904c",
+                    "player_660271_mlb_2023": "3ee1c98fb021b8efd2aa8050d2b5c218",
+                    "player_660670_mlb_2023": "9971ed98d1adc74077e3e9b46825bd96",
+                    "player_663538_mlb_2023": "286a72c56c0dc110c227053f11965c6e",
+                    "player_664023_mlb_2023": "574d3894bfb26511bbdc626d37b34ced",
+                    "player_666624_mlb_2023": "381ddcdf9d5150c4bd1e95ee6ca2af44",
+                    "player_670223_mlb_2023": "debe89f6bba7e2edc134b4f9fde2d62f",
+                    "player_673548_mlb_2023": "8960f2ebedd6effbb8b299f8de03c036",
+                    "player_696136_mlb_2023": "0345505a78c98e9e308ecbc377a584cf",
+                    "player_20000485_nba_2023": "0998233ad92e4da3e79269ebf4a1fd20",
+                    "player_20000574_nba_2023": "578565122e0967d96e4bb28c28fb0915",
+                    "player_20000877_nba_2023": "e8595996f334992786aca9e4d051fa4a",
+                    "player_20001672_nba_2023": "84db38982eed15c7aa95c6c880bf8856",
+                    "player_20001999_nba_2023": "6de287d16bba19bac9534972645a035a",
+                    "player_20002300_nba_2023": "796a18b0a0c410cbee397797405baa0f"
+                }
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233727",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233727",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "Y3O7aY3z",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "oksu is garbage anyways",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": 0,
+                    "replyNum": 3,
+                    "createdAt": "2023-11-10T22:19:47.749Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": {
+                        "count": 18,
+                        "attributions": [
+                            {
+                                "id": 4908,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 5
+                            },
+                            {
+                                "id": 444645,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4702670,
+                                "entityType": "player",
+                                "serialNumber": 22
+                            },
+                            {
+                                "id": 444520,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 32
+                            },
+                            {
+                                "id": 444716,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4433268,
+                                "entityType": "player",
+                                "serialNumber": 33
+                            },
+                            {
+                                "id": 444625,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4897518,
+                                "entityType": "player",
+                                "serialNumber": 37
+                            }
+                        ]
+                    },
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 158367,
+                    "replyingToReplyNum": "2",
+                    "replyingToCommentId": "5233716"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422261",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:19:23.469Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "WJqe2BAJ",
+                "userName": "jc30",
+                "avatarKey": 3,
+                "flairId": "9306dc0fffe1453121139cb585d391d7",
+                "isVerified": false,
+                "supporterTier": 2,
+                "realProTier": null,
+                "entityAvatars": {}
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233716",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233716",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "WJqe2BAJ",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "ACU just beat Oklahoma state so they’re not just some chump school way less likely that we put up 90 again",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": 2,
+                    "createdAt": "2023-11-10T22:19:23.449Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": "assets/teams/default/small/55cccfee9ef5469c360844d83af11f0a.webp",
+                    "attributionInfo": null,
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 66227,
+                    "replyingToReplyNum": "1",
+                    "replyingToCommentId": "5233695"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30422231",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T22:18:23.663Z",
+            "type": "reply",
+            "entity": "post",
+            "createdBy": {
+                "id": "Y3O7aY3z",
+                "userName": "lleweypooey",
+                "avatarKey": 1,
+                "flairId": "2284511c34c7d67fafffcfcc4eccde3d",
+                "isVerified": false,
+                "supporterTier": 5,
+                "realProTier": null,
+                "entityAvatars": {
+                    "team_12_nhl_2023": "1dfd0a7d67051a9ec05c76293f0a701d",
+                    "team_112_mlb_2023": "9a3d4402767139001d08bf4217448ead",
+                    "team_153_ncaam_2023": "b6ac6d1242c49bff150def52ba4f5e66",
+                    "player_519203_mlb_2023": "4dbe375cdcde460d6ebd2de524d6d0fc",
+                    "player_573186_mlb_2023": "849c9250ce99c1fcf846718a9b86ae6c",
+                    "player_621020_mlb_2023": "6d11ba4a464f4a943229e507dc2af0cb",
+                    "player_621550_mlb_2023": "1b5ec4df3499bb0e1ed98a0cf3968928",
+                    "player_641355_mlb_2023": "d74b071a2f1f33e6665441fdd4f08482",
+                    "player_657006_mlb_2023": "45585b0af7dffc3d3fc871b2959f904c",
+                    "player_660271_mlb_2023": "3ee1c98fb021b8efd2aa8050d2b5c218",
+                    "player_660670_mlb_2023": "9971ed98d1adc74077e3e9b46825bd96",
+                    "player_663538_mlb_2023": "286a72c56c0dc110c227053f11965c6e",
+                    "player_664023_mlb_2023": "574d3894bfb26511bbdc626d37b34ced",
+                    "player_666624_mlb_2023": "381ddcdf9d5150c4bd1e95ee6ca2af44",
+                    "player_670223_mlb_2023": "debe89f6bba7e2edc134b4f9fde2d62f",
+                    "player_673548_mlb_2023": "8960f2ebedd6effbb8b299f8de03c036",
+                    "player_696136_mlb_2023": "0345505a78c98e9e308ecbc377a584cf",
+                    "player_20000485_nba_2023": "0998233ad92e4da3e79269ebf4a1fd20",
+                    "player_20000574_nba_2023": "578565122e0967d96e4bb28c28fb0915",
+                    "player_20000877_nba_2023": "e8595996f334992786aca9e4d051fa4a",
+                    "player_20001672_nba_2023": "84db38982eed15c7aa95c6c880bf8856",
+                    "player_20001999_nba_2023": "6de287d16bba19bac9534972645a035a",
+                    "player_20002300_nba_2023": "796a18b0a0c410cbee397797405baa0f"
+                }
+            },
+            "sport": "ncaam",
+            "contentId": 102364,
+            "commentId": "5233695",
+            "additionalInfo": {
+                "entity": "user",
+                "comment": {
+                    "id": "5233695",
+                    "depth": 1,
+                    "sport": "ncaam",
+                    "detail": null,
+                    "filter": "clean",
+                    "postId": 102364,
+                    "userId": "Y3O7aY3z",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "yeah but their offense gonna go to work tonight",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": 0,
+                    "replyNum": 1,
+                    "createdAt": "2023-11-10T22:18:23.652Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "postCreatedAt": "2023-11-10T12:00:59.250Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": {
+                        "count": 18,
+                        "attributions": [
+                            {
+                                "id": 4908,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 5
+                            },
+                            {
+                                "id": 444645,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4702670,
+                                "entityType": "player",
+                                "serialNumber": 22
+                            },
+                            {
+                                "id": 444520,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 153,
+                                "entityType": "team",
+                                "serialNumber": 32
+                            },
+                            {
+                                "id": 444716,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4433268,
+                                "entityType": "player",
+                                "serialNumber": 33
+                            },
+                            {
+                                "id": 444625,
+                                "type": "userpass",
+                                "sport": "ncaam",
+                                "active": false,
+                                "entityId": 4897518,
+                                "entityType": "player",
+                                "serialNumber": 37
+                            }
+                        ]
+                    },
+                    "parentCommentId": "5233468",
+                    "replyingToUserId": 295262,
+                    "replyingToReplyNum": null,
+                    "replyingToCommentId": "5233468"
+                },
+                "createdBy": {
+                    "id": "Jkd6qe6k",
+                    "userName": "real",
+                    "avatarKey": 3,
+                    "flairId": "",
+                    "isVerified": true,
+                    "supporterTier": null,
+                    "realProTier": null,
+                    "entityAvatars": {},
+                    "emblemIds": [
+                        "vf"
+                    ]
+                }
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30387751",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-10T03:11:28.146Z",
+            "type": "reply",
+            "entity": "play",
+            "createdBy": {
+                "id": "xnr55gk3",
+                "userName": "lamarjacksonn8",
+                "avatarKey": 3,
+                "flairId": "aaa64b9d79f7912f95868cb478efc4cc",
+                "isVerified": false,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": null
+            },
+            "sport": "ncaaf",
+            "contentId": 1899764940,
+            "commentId": "24543324",
+            "additionalInfo": {
+                "entity": "player",
+                "comment": {
+                    "id": "24543324",
+                    "depth": 1,
+                    "sport": "ncaaf",
+                    "detail": null,
+                    "filter": "clean",
+                    "playId": 1899764940,
+                    "userId": "xnr55gk3",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "did the guy lead with his head",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": 2,
+                    "createdAt": "2023-11-10T03:11:28.134Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "playCreatedAt": "2023-11-10T03:01:51.525Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": null,
+                    "parentCommentId": "24543185",
+                    "replyingToUserId": 295262,
+                    "replyingToReplyNum": "1",
+                    "replyingToCommentId": "24543265"
+                },
+                "entityId": 55282,
+                "avatar": "d96211258664a694471aa17dec452bad",
+                "name": "M. Washington"
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        },
+        {
+            "id": "30351018",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-09T12:03:57.530Z",
+            "type": "general",
+            "entity": "post",
+            "createdBy": {
+                "id": "Jkd6qe6k",
+                "userName": "real",
+                "avatarKey": 3,
+                "flairId": "",
+                "isVerified": true,
+                "supporterTier": null,
+                "realProTier": null,
+                "entityAvatars": {},
+                "emblemIds": [
+                    "vf"
+                ]
+            },
+            "sport": null,
+            "contentId": null,
+            "commentId": null,
+            "additionalInfo": {
+                "display": " 14 Rax earned for daily player card performance earnings 💸",
+                "avatarSource": "assets/raxlogo.png"
+            },
+            "section": null,
+            "groupId": null,
+            "deletedAt": null
+        },
+        {
+            "id": "30312187",
+            "userId": "KnA6mEEJ",
+            "version": 1,
+            "bumpedAt": "2023-11-09T01:55:08.310Z",
+            "type": "reply",
+            "entity": "play",
+            "createdBy": {
+                "id": "oJlolNLn",
+                "userName": "lushh",
+                "avatarKey": 3,
+                "flairId": "be2d6dcaf003c56e9c86fb1fc9281681",
+                "isVerified": false,
+                "supporterTier": null,
+                "realProTier": 1,
+                "entityAvatars": {
+                    "team_5_nfl": "051c903a3f61d77de42f931eea71c0ef"
+                },
+                "isRealPro": true,
+                "emblemIds": [
+                    "rp"
+                ]
+            },
+            "sport": "nhl",
+            "contentId": 1898633736,
+            "commentId": "24469796",
+            "additionalInfo": {
+                "entity": "player",
+                "comment": {
+                    "id": "24469796",
+                    "depth": 1,
+                    "sport": "nhl",
+                    "detail": null,
+                    "filter": "clean",
+                    "playId": 1898633736,
+                    "userId": "oJlolNLn",
+                    "content": {
+                        "nodes": [
+                            {
+                                "type": "Paragraph",
+                                "children": [
+                                    {
+                                        "text": "Don’t care",
+                                        "type": "Text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "groupId": 777777777,
+                    "numEdits": 0,
+                    "priority": null,
+                    "replyNum": 2,
+                    "createdAt": "2023-11-09T01:55:08.296Z",
+                    "deletedAt": null,
+                    "flaggedAt": null,
+                    "replyCount": 0,
+                    "pinPriority": null,
+                    "priorityType": null,
+                    "playCreatedAt": "2023-11-09T01:54:19.001Z",
+                    "repliesClosed": false,
+                    "priorityAvatar": null,
+                    "attributionInfo": null,
+                    "parentCommentId": "24469565",
+                    "replyingToUserId": 295262,
+                    "replyingToReplyNum": "1",
+                    "replyingToCommentId": "24469719"
+                },
+                "entityId": 8477947,
+                "avatar": "473063dcfe62323c262c9fee4b72d908",
+                "name": "S. Milano"
+            },
+            "section": null,
+            "groupId": 777777777,
+            "deletedAt": null
+        }
+    ],
+    "activityInfo": {
+        "bumpedAt": "2023-11-14T16:30:23.900Z",
+        "count": 1
+    },
+    "userId": "KnA6mEEJ"
+}
