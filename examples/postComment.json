@@ -1,0 +1,64 @@
+{
+    "postId": "98762",
+    "comments": [],
+    "parentComment": {
+        "id": "4966130",
+        "userId": "7Jk5PAj3",
+        "postId": 98762,
+        "parentCommentId": null,
+        "replyingToCommentId": null,
+        "replyingToUserId": null,
+        "replyNum": null,
+        "content": {
+            "nodes": [
+                {
+                    "type": "Paragraph",
+                    "children": [
+                        {
+                            "name": "ryan_mountaincastle",
+                            "type": "Mention",
+                            "mentionType": "user"
+                        }
+                    ]
+                }
+            ]
+        },
+        "replyCount": 0,
+        "depth": 0,
+        "createdAt": "2023-10-29T18:41:30.149Z",
+        "flaggedAt": null,
+        "deletedAt": null,
+        "postCreatedAt": "2023-10-29T18:40:26.961Z",
+        "sport": "nfl",
+        "groupId": 777777777,
+        "filter": "all",
+        "replyingToReplyNum": null,
+        "repliesClosed": false,
+        "priorityAvatar": null,
+        "priorityType": null,
+        "priority": null,
+        "attributionInfo": null,
+        "detail": null,
+        "pinPriority": null,
+        "numEdits": 0,
+        "karma": null,
+        "user": {
+            "id": "7Jk5PAj3",
+            "userName": "yesorno",
+            "avatarKey": 2,
+            "flairId": null,
+            "isVerified": false,
+            "supporterTier": null,
+            "realProTier": null,
+            "entityAvatars": null
+        },
+        "canEdit": false
+    },
+    "repliesDisabled": false,
+    "upvotes": [],
+    "postKarmaUsages": [],
+    "headers" : {
+    "url": "https://web.realsports.io/comments/posts/98762/replies/4966130?limit=10",
+    "method": "get"
+}
+}

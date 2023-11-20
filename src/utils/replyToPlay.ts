@@ -20,12 +20,13 @@ export default async function replyToplay(
         const res = await axios.post(`https://web.realsports.io/comments/plays/${playId}`, req, {
             method: "post",
             headers: {
-                "real-auth-info": process.env.auth,
+                "real-auth-info": "KnA6mEEJ!Y35g7vRG!801a60f9-9b0e-4811-b4f7-82cd53442a7b",
                 "real-device-uuid": "178ae57e-6575-4119-bb26-9b7102fd5b69",
                 "real-device-type": "desktop_web",
                 "real-device-token": "token",
             },
         });
+        console.log(res)
         if (res.status < 200 || res.status > 299) {
             throw error(`Message play error; Code ${res.status}`);
         }
