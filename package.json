@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ts-node ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "npm install && node ./out/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,15 +20,20 @@
   "homepage": "https://github.com/carterdacat/realbot#readme",
   "dependencies": {
     "@types/node": "^20.8.9",
-    "axios": "^1.6.0",
+    "axios": "^1.6.2",
     "chalk": "^4.1.2",
     "coinflip": "^1.0.0",
     "dotenv": "^16.3.1",
     "promisify": "^0.0.3",
     "socket.io-client": "^2.5.0",
+    "typedoc": "^0.25.3",
     "typescript": "^5.2.2",
     "utils": "^0.3.1",
     "ws": "^8.14.2"
+  },
+      "typedocOptions": {
+        "entryPoints": ["src/**/*"],
+        "out": "docs"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"

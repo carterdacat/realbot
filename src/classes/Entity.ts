@@ -1,4 +1,4 @@
-import { replyToPost, replyToPlay } from "../utils/functions";
+import { replyToPost, replyToPlay, replyToGame } from "../utils/functions";
 import Comment from "./Comment";
 import Reply from "./Reply";
 import User from "./User";
@@ -11,15 +11,20 @@ export default class Entitiy extends Comment {
     comments: any;
     postCreatedAt: string;
     playId: number;
-    entityType: "play" | "post";
+    entityType: "play" | "post" | "game";
     entityId: number;
     constructor(body, client) {
         super(body, client);
         const parentComment = body.parentComment;
-        this.entityType = body.playId ? "play" : "post";
+        this.entityType = body.playId ? "play" : body.postId ? "post" : "game";
         this.id = parentComment.id;
         this.userId = parentComment.userId;
-        this.entityId = this.entityType === "play" ? body.playId : body.postId;
+        this.entityId =
+            this.entityType === "play"
+                ? body.playId
+                : this.entityType === "post"
+                ? body.postId
+                : body.gameId;
         this.parentCommentId = parentComment.parentCommentId;
         this.replyingToCommentId = parentComment.replyingToCommentId;
         this.replyingToUserId = parentComment.replyingToUserId;
@@ -34,11 +39,13 @@ export default class Entitiy extends Comment {
         this.repliesDisabled = parentComment.repliesClosed;
     }
     async reply(text: string, group?: boolean): Promise<Reply> {
-        const obj: reqObj = {
+        const obj = {
             groupId: this.groupId,
             text: text,
             parentCommentId: this.id,
+            playerId: null,
         };
+
         switch (this.entityType) {
             case "play": {
                 return replyToPlay(this.entityId, obj, this.client, group ? true : false).catch(
@@ -53,6 +60,17 @@ export default class Entitiy extends Comment {
                         throw err;
                     }
                 );
+            }
+            case "game": {
+                return replyToGame(
+                    this.entityId,
+                    obj,
+                    this.client,
+                    this.sport,
+                    group ? true : false
+                ).catch((err) => {
+                    throw err;
+                });
             }
         }
     }

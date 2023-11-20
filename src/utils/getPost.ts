@@ -1,7 +1,5 @@
 import axios from "axios";
 import Bot from "../main/Bot";
-import Post from "../classes/Post";
-import Entitiy from "../classes/Entity";
 import Entity from "../classes/Entity";
 
 export default async function getPostFunction(
